@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offer Affiliate Hub</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #00ffcc;
+      font-size: 1.5rem;
+    }
+
+    .banner-container {
+      position: relative;
+      width: 480px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #1a1a1a;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+    }
+
+    .banner {
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner.active {
+      opacity: 1;
+      z-index: 2;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔥 Offer Affiliate Hub 🔥</h1>
+
+  <div class="banner-container">
+    <!-- Banner 1 -->
+    <div class="banner active">
+      <script type='text/javascript' src='//salvageapplet.com/f2/26/eb/f226eb42eda25a690a64a7f5c6130829.js'></script>
+    </div>
+
+    <!-- Banner 2 -->
+    <div class="banner">
+      <script async="async" data-cfasync="false" src="//salvageapplet.com/921db2a6124127c7212a195e1e395c4c/invoke.js"></script>
+      <div id="container-921db2a6124127c7212a195e1e395c4c"></div>
+    </div>
+
+    <!-- Banner 3 -->
+    <div class="banner">
+      <a href="https://salvageapplet.com/dnndp4rm?key=235e9fe8430dede1673cd62b75f1e829" target="_blank">
+        <img src="https://via.placeholder.com/468x60.png?text=Click+Here+For+Top+Offers" alt="Smartlink Offer" />
+      </a>
+    </div>
+
+    <!-- Banner 4 -->
+    <div class="banner">
+      <a href="https://ouo.io/t8xtvp" target="_blank">
+        <img src="https://via.placeholder.com/468x60.png?text=Ouo.io+Smartlink" alt="Ouo Offer" />
+      </a>
+    </div>
+  </div>
+
+  <footer>© 2025 OfferAffiliateHub | Rotating Ad Zone</footer>
+
+  <script>
+    const banners = document.querySelectorAll('.banner');
+    let current = 0;
+
+    function rotateBanners() {
+      banners[current].classList.remove('active');
+      current = (current + 1) % banners.length;
+      banners[current].classList.add('active');
+    }
+
+    // Rotate every 6 seconds
+    setInterval(rotateBanners, 6000);
+  </script>
+</body>
+</html>
